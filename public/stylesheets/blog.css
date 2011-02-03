@@ -1,0 +1,64 @@
+/* Styles for blog reader */
+
+#banner { 
+	<!-- background: #60b9ce; -->
+	padding-top: 10px; 
+	padding-bottom: 10px; 
+	margin-top: 80px;
+	margin-left: 200px;
+	text-align: left;
+	color: #120873; 
+}
+
+#banner .title {
+	font: bold 25px/25px "Gill Sans", sans-serif;
+}
+
+#banner .subtitle {
+	font: 18px/18px "Gill Sans", sans-serif;
+}
+
+#post {
+	margin-top: 20px;
+	margin-left: 200px;
+	margin-bottom: 10px;
+	text-align: left;
+	font: 18px/18px "Gill Sans", sans-serif;
+	color: #3d3f44;
+}
+
+#post .p_title {
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+#post .p_content {
+	margin-bottom: 10px;
+}
+
+#post .p_name {
+	font-size: 13px;
+}
+
+#post .p_comments {
+	font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

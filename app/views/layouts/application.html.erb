@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Blog</title>
-  <%= stylesheet_link_tag :all %>
+  <title>Luciano's Blog</title>
+  <%= stylesheet_link_tag "scaffold" %>
+	<%= stylesheet_link_tag "blog", :media => "all" %>
   <%= javascript_include_tag :defaults %>
   <%= csrf_meta_tag %>
 </head>
-<body style="background: #EEEEEE;">
- 
-<%= yield %>
 
+<body>
+	<div id="banner">
+		<div class="title"><%= "Luciano's P2PU Blog" %></div>
+		<div class="subtitle"><%= "Look Ma, no hands!"%></div>
+	</div>
+	<%= yield %>
 </body>
 </html>
