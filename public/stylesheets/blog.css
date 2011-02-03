@@ -5,26 +5,30 @@
 	padding-top: 10px; 
 	padding-bottom: 10px; 
 	margin-top: 80px;
-	margin-left: 200px;
+	margin-left: 25%;
+	margin-right: 25%;
 	text-align: left;
 	color: #120873; 
 }
 
 #banner .title {
 	font: bold 25px/25px "Gill Sans", sans-serif;
+	margin-bottom: 5px;
 }
 
 #banner .subtitle {
-	font: 18px/18px "Gill Sans", sans-serif;
+	font: 20px/20px "Gill Sans", sans-serif;
 }
 
 #post {
 	margin-top: 20px;
-	margin-left: 200px;
 	margin-bottom: 10px;
+	margin-left: 25%;
+	margin-right: 25%;
+
 	text-align: left;
 	font: 18px/18px "Gill Sans", sans-serif;
-	color: #3d3f44;
+	color: #2e479b;
 }
 
 #post .p_title {
