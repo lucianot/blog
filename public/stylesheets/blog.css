@@ -1,7 +1,6 @@
 /* Styles for blog reader */
 
 #banner { 
-	<!-- background: #60b9ce; -->
 	padding-top: 10px; 
 	padding-bottom: 10px; 
 	margin-top: 80px;
@@ -20,9 +19,18 @@
 	font: 20px/20px "Gill Sans", sans-serif;
 }
 
+#banner a {
+	color: #120873; 
+}
+
+#banner .admin {
+	text-align: right;
+	font: 13px/13px "Gill Sans", sans-serif;
+}
+
 #post {
 	margin-top: 20px;
-	margin-bottom: 10px;
+	margin-bottom: 40px;
 	margin-left: 25%;
 	margin-right: 25%;
 
@@ -46,6 +54,34 @@
 
 #post .p_comments {
 	font-size: 13px;
+}
+
+#posts {
+	margin-top: 40px;
+	margin-left: 25%;
+	margin-right: 25%;
+	text-align: left;
+	color: #2e479b;
+}
+
+#posts .links {
+	font-size: 10px;
+}
+
+/* Links */
+
+a {
+  color: #2e479b;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+	background-color: white;
+}
+
+a:visited {
+  color: #2e479b;
 }
 
 

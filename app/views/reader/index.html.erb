@@ -1,10 +1,9 @@
 <% @posts.each do |post| %>
-	<br />
 	<div id="post">
-		<div class="p_title"><%= post.title %></div>
+		<div class="p_title"><%= link_to post.title, post %></div>
 		<div class="p_content"><%= post.content %></div>
-		<div class="p_name"><%=  "Posted by " + post.name %></div>
+		<div class="p_name"><%=  "Posted by #{post.name}" %></div>
 		<div class="p_comments">
-			<%= "Comments: " + post.comments.size.to_s %></div>
+			<%= "Comments: #{post.comments.size.to_s}" %></div>
 		</div>
 <% end %>

@@ -10,8 +10,12 @@
 
 <body>
 	<div id="banner">
-		<div class="title"><%= "Luciano's P2PU Blog" %></div>
+		<div class="title">
+			<%= link_to "Luciano's P2PU Blog", reader_path %></div>
 		<div class="subtitle"><%= "Look Ma, no hands!"%></div>
+		<div class="admin">
+			<%= link_to 'Edit Blog', posts_path %>
+		</div>
 	</div>
 	<%= yield %>
 </body>
