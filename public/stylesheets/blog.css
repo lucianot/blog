@@ -1,72 +1,102 @@
-/* Styles for blog reader */
+/* Styles for layout */
 
 #banner { 
-	padding-top: 10px; 
-	padding-bottom: 10px; 
-	margin-top: 80px;
-	margin-left: 25%;
-	margin-right: 25%;
+	margin-top: 60px;
+	margin-bottom: 10px;
+	margin-left: 80px;
 	text-align: left;
 	color: #120873; 
 }
 
-#banner .title {
-	font: bold 25px/25px "Gill Sans", sans-serif;
-	margin-bottom: 5px;
+#banner .first {
+	width: 160px;
+	padding-right: 20px;
 }
 
-#banner .subtitle {
-	font: 20px/20px "Gill Sans", sans-serif;
+#banner .second {
+	width: 500px;
+}
+
+#banner .second .title {
+	font: bold 25px/25px "Gill Sans", sans-serif;
+}
+
+#banner .second .subtitle {
+	font: 18px/18px "Gill Sans", sans-serif;
+}
+
+#banner .second .admin {
+	text-align: right;
+	font: 13px/13px "Gill Sans", sans-serif;
 }
 
 #banner a {
 	color: #120873; 
 }
 
-#banner .admin {
-	text-align: right;
-	font: 13px/13px "Gill Sans", sans-serif;
-}
+/* Sytles for blog reader */
 
-#post {
+#blog {
 	margin-top: 20px;
-	margin-bottom: 40px;
-	margin-left: 25%;
-	margin-right: 25%;
-
-	text-align: left;
-	font: 18px/18px "Gill Sans", sans-serif;
+	margin-left: 80px;
+	font-family: "Gill Sans", sans-serif;
 	color: #2e479b;
 }
 
-#post .p_title {
+#blog .post .date {
+	width: 160px;
+	padding-right: 20px;
+	text-align: right;
+	vertical-align: top;
+	font-size: 10px;
+	color: #6e7fa4;
+}
+
+#blog .post .rest {
+	width: 500px;
+	font-size: 15px;
+}
+
+#blog .post .rest .title {
 	font-weight: bold;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 }
 
-#post .p_content {
-	margin-bottom: 10px;
+#blog .post .rest .content {
+	margin-bottom: 13px;
 }
 
-#post .p_name {
-	font-size: 13px;
+#blog .post .rest .name {
+	font-size: 10px;
 }
 
-#post .p_comments {
-	font-size: 13px;
+#blog .post .rest .comments {
+	font-size: 10px;
+	margin-bottom: 20px;
 }
+
+/* Styles for admin main */
 
 #posts {
 	margin-top: 40px;
-	margin-left: 25%;
 	margin-right: 25%;
+	margin-left: 260px;
 	text-align: left;
 	color: #2e479b;
+}
+
+#posts .name {
+	width: 80px;
+}
+
+#posts .title {
+	width: 120px;
 }
 
 #posts .links {
 	font-size: 10px;
 }
+
 
 /* Links */
 

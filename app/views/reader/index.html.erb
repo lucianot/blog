@@ -1,9 +1,16 @@
-<% @posts.each do |post| %>
-	<div id="post">
-		<div class="p_title"><%= link_to post.title, post %></div>
-		<div class="p_content"><%= post.content %></div>
-		<div class="p_name"><%=  "Posted by #{post.name}" %></div>
-		<div class="p_comments">
-			<%= "Comments: #{post.comments.size.to_s}" %></div>
-		</div>
-<% end %>
+<table id="blog">
+	<% @posts.each do |post| %>
+		<tr class="post">
+			<td class="date">
+				<%= post.created_at.to_formatted_s(:nice) %>
+			</td>
+			<td class="rest">
+				<div class="title"><%= link_to post.title, post %></div>
+				<div class="content"><%= post.content %></div>
+				<div class="name"><%=  "Posted by #{post.name}" %></div>
+				<div class="comments">
+					<%= "Comments: #{post.comments.size.to_s}" %></div>
+			</td>
+		</tr>
+	<% end %>
+</table>

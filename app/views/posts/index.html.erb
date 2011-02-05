@@ -13,8 +13,8 @@
 
 	<% @posts.each do |post| %>
 	  <tr>
-	    <td><%= post.name %></td>
-	    <td><%= post.title %></td>
+	    <td class="name"><%= post.name %></td>
+	    <td class="title"><%= post.title %></td>
 	    <td><%= post.content %></td>
 	    <td class="links"><%= link_to 'Show', post %></td>
 	    <td class="links"><%= link_to 'Edit', edit_post_path(post) %></td>
