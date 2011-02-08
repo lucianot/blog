@@ -2,7 +2,8 @@
 	<% @posts.each do |post| %>
 		<tr class="post">
 			<td class="date">
-				<%= post.created_at.to_formatted_s(:nice) %>
+				<%= post.created_at.to_formatted_s(:nice) %><br /><br />
+				<%= post.topic %>
 			</td>
 			<td class="rest">
 				<div class="title"><%= link_to post.title, post %></div>
